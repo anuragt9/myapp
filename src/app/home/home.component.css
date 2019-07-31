@@ -16,12 +16,28 @@
   right: 0;
   top: -234px;
 }
+.Wise-Pivot:before{
+  content: "";
+  background: url(/assets/Accenture.png);
+  position: absolute;
+  background-position: right top;
+  width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  top: -173px;
+  right: 0;
+  z-index: 0;
+}
+
+.text-wise-pivot {
+  position: relative;
+  z-index: 9;
+}
 
 /*********************50 YEARS******************/
 
 section.proud-moment {
   padding: 50px 0;
-  text-align: center;
   background-color: #f2f2f2;
   margin: 40px 0;
   display: block;
@@ -76,11 +92,11 @@ section.proud-moment {
 }
 
 .heading-cr {
-  font-size: 1.125rem;
+  font-size: 1.125em;
   /* line-height: 1.39em; */
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: .078rem;
+  letter-spacing: .078em;
 }
 
 .innovation {
@@ -102,15 +118,6 @@ section.proud-moment {
   align-items: center;
   margin-bottom: 25px;
 }
-
-
-
-
-
-
-
-
-
 .i-top-box img {
   width: 100%;
   height: auto;
@@ -122,15 +129,6 @@ section.proud-moment {
 .i-top-box {
   width: 100%;
   overflow: hidden;
-  /* box-shadow: 0px 13px 0px #000; */
-  /* position: relative; */
-  /* content: ""; */
-  /* position: absolute; */
-  /* border-bottom: 1.25em solid; */
-  /* border-left: 1.25em solid transparent; */
-  /* margin-left: 0; */
-  /* color: #000; */
-  /* border-right: 1.25rem solid transparent; */
 }
 
 .i-top-box:hover img {
@@ -151,16 +149,6 @@ section.proud-moment {
   position: relative;
 }
 
-.i-top-box:after {
-  /* content: ""; */
-  /* position: absolute; */
-  /* border-top: 1.25em solid; */
-  /* border-left: 1.25em solid transparent; */
-  /* margin-left: 0; */
-  /* color: #000; */
-  /* z-index: 9999; */
-}
-
 .i-bottom-box:before {
   content: "";
   position: absolute;
@@ -174,45 +162,33 @@ section.proud-moment {
 }
 
 .i-bottom-box .heading-title {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   font-weight: 700;
 }
 .i-bottom-box p:last-of-type {
   margin-bottom: 45px;
 }
-
-
-
-
-
-
 .inner-subscribe {
   position: relative;
 }
-
 .subscribe-section {
   background-image: linear-gradient(to right,#a100ff 30%,#460073 100%);
   padding: 4.25em 1.63em 4.75em 1em;
   color: #fff;
 }
-
 .subscribe-section h3 {
-  font-size: 2.188rem;
+  font-size: 2.188em;
   line-height: 1.4em;
   font-weight: 900;
 }
-
-
-
-
-
 .logo-section {
   background-color: #a100ff;
   position: absolute;
-  right: 0px;
+  right: 15px;
   top: 25px;
   z-index: 1;
   height: 100%;
+  width: 100%;
 }
 
 .logo-section:before {
@@ -242,4 +218,83 @@ section.proud-moment {
   height: 100%;
   width: 100%;
   padding: 35px;
+}
+.inner-blog {
+  margin-bottom: 25px;
+}
+
+
+
+
+/*
+
+@media only screen and (max-width: 768px) {
+
+
+
+.inner-careers {
+  left: 10px !important;
+  right: 10px !important;
+  margin: 0 auto !important;
+}
+
+.blog > .col-sm-12 {
+}
+
+.logo-section {
+  position: initial !important;
+}
+
+.subscribe {
+  position: relative !important;
+}
+
+.subscribe-section {
+  position: relative;
+  z-index: 99;
+}
+
+.logo-section embed {
+  width: 30% !important;
+}
+
+} */
+
+
+@media only screen and (max-width: 991px) {
+.inner-careers {
+  left: 15px;
+  right: 15px;
+}
+
+.Wise-Pivot:before {
+  height: 550px;
+  opacity: 0.2;
+}
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.logo-section {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.logo-section:after {
+  display: none !important;
+}
+
+.logo-section embed {
+  height: 250px !important;
+  width: auto !important;
+}
+
+.logo-section:before {
+  left: 0 !important;
+}
+
 }

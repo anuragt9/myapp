@@ -2,6 +2,11 @@
 
 /* @import "-@fortawesome/fontawsome-free/css/all.css"; */
 
+body{
+  width: 100%;
+  font-size: 16px;
+}
+
 a{
   transition: all 0.5s;
 }
@@ -9,9 +14,11 @@ a{
 
 h1{
   line-height: 1;
-  font-size: 4.063rem;
+  font-size: 4.063em;
   margin-bottom: 23px;
 }
+
+
 
 
 .btn {
@@ -61,7 +68,7 @@ h1{
 .heading-title {
   border-bottom: 2px solid #004dff;
   padding-bottom: 6px;
-  font-size: .75rem;
+  font-size: .75em;
   display: inline-block;
   margin-bottom: 40px;
 }
@@ -81,11 +88,14 @@ h3 a:hover {
 }
 
 .new-button {
-  font-size: 1rem;
+  font-size: 1em;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  display: inline-block;
+  padding: 5px 20px 5px 0;
 }
 
 .new-button:hover {
@@ -96,34 +106,108 @@ h3 a:hover {
 .new-button:hover:before {
   content: "";
   background-color: #000;
-  width: 100%;
+  width: 87%;
   height: 2px;
   position: absolute;
   left: 0;
-  bottom: -8px;
-  /* transform: translateX(100%); */
 }
 
 .new-button:before {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -8px;
+  bottom: -3px;
   width: 0;
   height: 2px;
   background-color: #007bff;
   /* transform: translateX(-100%); */
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-
-
-h2 {
-  font-size: 3rem;
+.new-button:after {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 8px;
+  right: -6px;
+  content: "";
+  background: url(./assets/right-arrow-blue.svg);
+  background-size: cover;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
+.new-button:hover:after {
+  background: url(./assets/right-arrow.svg);
+  right: -14px;
+  background-size: cover;
+}
+h2 {
+  font-size: 3em;
+}
 .action {
   padding: 25px 0;
 }
 
 
+
+
+
+
+@media (max-width: 1199px){
+
+  h1{font-size: 3.0em;}
+
+
+  .carousel-item {
+    max-width: 60% !important;
+    top: 18% !important;
+}
+
+.slider-img {
+    background-color: transparent !important;
+    height: 347px !important;
+}
+
+h2 {
+    font-size: 2.3em;
+}
+
+h3 {
+    font-size: 1.50em;
+}
+
+.i-bottom-box {
+    padding: 25px 15px;
+}
+
+
+}
+
+@media (max-width: 991px){
+
+h1 {
+  font-size: 2em;
+}
+.slider-img {
+  background-color: transparent !important;
+  height: 365px !important;
+  background-size: cover !important;
+}
+
+
+}
+
+
+@media (max-width: 767px){
+
+.carousel-item {
+  max-width: 100% !important;
+  top: 18% !important;
+  left: 15px;
+  padding: 0 !important;
+  margin-right: 15px !important;
+}
+
+}

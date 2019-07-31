@@ -5,7 +5,7 @@
 
 .nav-item .nav-link {
   padding: 0 !important;
-  font-size: .875rem;
+  font-size: .875em;
   font-weight: 600;
   color: #000 !important;
 }
@@ -85,4 +85,49 @@ ul.nav-right-side li img {
 }
 ul.nav-right-side li:last-child {
   padding: 22px 12px !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+
+li.nav-item {
+  margin: 0 !important;
+  padding: 5px 10px !important;
+  text-align: center;
+}
+
+ul.navbar-nav {
+  margin: 25px 0;
+}
+
+ul.nav-right-side {
+  margin: 0 !important;
+  padding: 0 0 30px !important;
+}
+
+ul.nav-right-side li {
+  width: 100%;
+  text-align: center;
+  padding: 10px !important;
+}
+
+ul.nav-right-side button {
+  top: 0px !important;
+  right: 0 !important;
+  margin: 0 !important;
+}
+
+ul.nav-right-side li:last-child {
+  padding: 0 !important;
+}
+
+ul.nav-right-side li:last-child {
+  padding: 0 !important;
+}
 }

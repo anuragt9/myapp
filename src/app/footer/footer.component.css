@@ -37,6 +37,7 @@ footer ul li a {
 footer ul li a:hover {
   text-decoration: none;
   color: #fff;
+  text-decoration: line-through;
 }
 
 footer p {
@@ -74,4 +75,40 @@ img.footer-logo {
 }
 ul.footer-menu {
   margin-top: 4px !important;
+}
+
+ul.social-icons li a img {
+  width: 34px;
+  height: auto;
+  transition: all 0.5s;
+}
+
+ul.social-icons li {
+  padding: 0 0.5rem !important;
+}
+
+ul.social-icons li a:hover img {
+  transform: rotateY(360deg);
+  filter: sepia(100%);
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .footer-top > .col-sm-12 {
+    margin-bottom: 26px !important;
+}
+
+.footer-top {
+    margin-bottom: 30px !important;
+}
+
+.footer-top:after {
+    bottom: -2px !important;
+}
+
+.footer-bottom .col-sm-12 {
+    margin: 5px 0 5px 0;
+}
+
 }
