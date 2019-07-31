@@ -1,0 +1,245 @@
+
+.Wise-Pivot {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+
+.right-side-img {
+  width: 100%;
+  height: 522px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  right: 0;
+  top: -234px;
+}
+
+/*********************50 YEARS******************/
+
+section.proud-moment {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 40px 0;
+  display: block;
+  box-shadow: 0 4px 5px #bdbdbd;
+}
+
+/*****************blog**************************/
+
+.blog {
+  padding-bottom: 40px;
+}
+
+.blog_img {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 19px;
+}
+
+.blog_img img {
+  transition: all 0.5s;
+  width: 100%;
+  display: block;
+}
+
+.blog_img:hover img {
+  transform: scale(1.1);
+}
+
+
+/*******careers******/
+
+
+
+.careers {
+  width: 100%;
+  position: relative;
+  margin: 100px 0 25px;
+  height: 400px;
+}
+
+.inner-careers {
+  position: absolute;
+  background-color: #fff;
+  padding: 30px;
+  border-top: 0.51rem solid #a100ff!important;
+  top: -70px;
+  border-style: inset;
+  border-color: #fff;
+  border: .35rem solid #fff;
+  box-shadow: 0 2px 3px rgba(130, 130, 130, 0.45);
+}
+
+.heading-cr {
+  font-size: 1.125rem;
+  /* line-height: 1.39em; */
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .078rem;
+}
+
+.innovation {
+  margin-bottom: 30px;
+}
+
+.innovation .innovation-top {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+.i-top-box img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+  display: block;
+  position: relative;
+}
+
+.i-top-box {
+  width: 100%;
+  overflow: hidden;
+  /* box-shadow: 0px 13px 0px #000; */
+  /* position: relative; */
+  /* content: ""; */
+  /* position: absolute; */
+  /* border-bottom: 1.25em solid; */
+  /* border-left: 1.25em solid transparent; */
+  /* margin-left: 0; */
+  /* color: #000; */
+  /* border-right: 1.25rem solid transparent; */
+}
+
+.i-top-box:hover img {
+  transform: scale(1.1);
+}
+
+.i-bottom-box {
+  padding: 25px;
+  border: 1px solid #b7b7b7;
+  width: calc(100% - 30px);
+  float: right;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+
+.innovation-bottom {
+  position: relative;
+}
+
+.i-top-box:after {
+  /* content: ""; */
+  /* position: absolute; */
+  /* border-top: 1.25em solid; */
+  /* border-left: 1.25em solid transparent; */
+  /* margin-left: 0; */
+  /* color: #000; */
+  /* z-index: 9999; */
+}
+
+.i-bottom-box:before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: -1px;
+  background-color: #040404;
+  width: 10%;
+  height: 25px;
+  transform: skewX(57deg);
+  z-index: -1;
+}
+
+.i-bottom-box .heading-title {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.i-bottom-box p:last-of-type {
+  margin-bottom: 45px;
+}
+
+
+
+
+
+
+.inner-subscribe {
+  position: relative;
+}
+
+.subscribe-section {
+  background-image: linear-gradient(to right,#a100ff 30%,#460073 100%);
+  padding: 4.25em 1.63em 4.75em 1em;
+  color: #fff;
+}
+
+.subscribe-section h3 {
+  font-size: 2.188rem;
+  line-height: 1.4em;
+  font-weight: 900;
+}
+
+
+
+
+
+.logo-section {
+  background-color: #a100ff;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  z-index: 1;
+  height: 100%;
+}
+
+.logo-section:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #a100ff;
+  left: -26px;
+  top: 0;
+}
+
+.logo-section:after {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: -26px;
+  z-index: -1;
+  width: 26px;
+  height: 40px;
+  transform: skewY(-43deg);
+  background-image: linear-gradient(-90deg,#00baff 30%,#004dff);
+}
+
+.logo-section embed {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 35px;
+}
